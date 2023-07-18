@@ -12,7 +12,11 @@ dataset = load_dataset("animonte/train_house_price")
 
 df = pd.DataFrame(dataset["train"])
 
+# Selección de variables para el modelo
 
+Select = ['GrLivArea', 'TotalBsmtSF', 'MoSold', 'YearBuilt', 'YearRemodAdd', 'LotFrontage', 'YrSold', 'Id', 'BsmtFinSF1','OverallQual']
+X = df.loc[:, Select ]  # Variables predictoras
+y = df['SalePrice']     # Variable objetivo
 
 # Interfaz gráfica del demo
 
