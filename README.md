@@ -8,7 +8,7 @@ sdk_version: 3.36.1
 app_file: house_price.py
 pinned: false
 license: gpl-3.0
-
+---
 
 ## Segundo Proyecto personal
 
@@ -60,7 +60,3 @@ Luego de vincularme con un espacio de Hugging Face, he creado un archivo en el c
 La aplicación hugging face permite subir el modelo y conectarlo a la interfaz desde una API, sin embargo aún no he podido implementarlo de este modo. Esta tarea queda pendiente para seguir modificando este trabajo y mejorarlo
 
 **NOTA:** El código borrador se encuentra en un archivo ipynb, que si bien está desordenado, muestra todo el proceso que no ha sido lineal, sino el resultado de múltiples pruebas y errores que me enfrentó el desafío. 
-
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
